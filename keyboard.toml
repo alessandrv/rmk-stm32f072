@@ -5,12 +5,12 @@ product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "haobo"
-chip = "stm32f072vbt"
+chip = "stm32f072vb"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PA4", "PA5", "PA6", "PA3"]
-output_pins = ["PA7", "PA8", "PA9"]
+input_pins = ["PA4"]
+output_pins = ["PA7"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
@@ -20,16 +20,10 @@ cols = 3
 layers = 2
 keymap = [
     [
-        ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+        ["A"]
     ],
     [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
-        ["_", "_", "_"],
-        ["_", "_", "_"]
+        ["_"]
     ],
 ]
 
