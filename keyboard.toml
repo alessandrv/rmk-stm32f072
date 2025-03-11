@@ -15,8 +15,8 @@ output_pins = ["PA7"]
 # row2col = true
 
 [layout]
-rows = 4
-cols = 3
+rows = 1
+cols = 1
 layers = 2
 keymap = [
     [
