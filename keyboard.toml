@@ -9,21 +9,21 @@ chip = "stm32f072vb"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PA4"]
-output_pins = ["PA7"]
+input_pins = []
+output_pins = []
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 1
-cols = 1
+rows = 0
+cols = 0
 layers = 2
 keymap = [
     [
-        ["A"]
+        []
     ],
     [
-        ["_"]
+        []
     ],
 ]
 
