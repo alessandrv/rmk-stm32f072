@@ -9,21 +9,27 @@ chip = "stm32f411ve"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = []
-output_pins = []
+input_pins = ["PA4", "PA5", "PA6", "PA3"]
+output_pins = ["PA7", "PA8", "PA9"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 0
-cols = 0
+rows = 4
+cols = 3
 layers = 2
 keymap = [
     [
-        []
+        ["A", "B", "C"],
+        ["Kc1", "Kc2", "Kc3"],
+        ["LCtrl", "MO(1)", "LShift"],
+        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
     ],
     [
-        []
+        ["_", "TT(1)", "TG(2)"],
+        ["_", "_", "_"],
+        ["_", "_", "_"],
+        ["_", "_", "_"]
     ],
 ]
 
